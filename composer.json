@@ -1,0 +1,21 @@
+{
+    "name": "macklus/yii2-redsys-tpv",
+    "description": "Manage payment form generator from RedSys TPV",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," tpv"," payment"," redsys","caixa"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "José Pedro Andrés",
+            "email": "macklus@debianitas.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "macklus\\RedsysTpv\\": ""
+        }
+    }
+}
